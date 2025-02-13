@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main(){
+double diameter;
+cout << "Enter Diameter: ";
+cin >> diameter;
+cout <<M_PI * pow(diameter/2.0,2)<<
+endl;
+return 0;
+}
