@@ -24,9 +24,9 @@ int main() {
   cin >> birthDay;
 
   // Set the current date.
-  currentYear = 2024; 
-  currentMonth = 10;  
-  currentDay = 27;   
+  currentYear = 2025; 
+  currentMonth = 02;  
+  currentDay = 26;   
 
   // Calculate the age.
   int age = currentYear - birthYear;
