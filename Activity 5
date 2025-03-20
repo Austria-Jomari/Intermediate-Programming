@@ -1,0 +1,25 @@
+/*ACTIVITY #5
+AUSTRIA JOMARI S.
+BSIT-1R */
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float num, sum=0, average;
+    for (int i=1; i<=4; i++)
+    {
+        do
+        {
+            cout<<"Enter Quarter"<<i<<": ";
+            cin>>num;
+        }
+        while(num<60 || num>100);
+        
+        sum=sum+num;
+    }
+    
+    average=sum/4;
+    cout<<"The Average is: "<<average<<endl;
+}
